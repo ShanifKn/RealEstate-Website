@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 250px;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 210px;
+  padding-left: 50px;
+}
+nav ul li {
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 35px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: "InterFace Trial", sans-serif;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  text-shadow: #fff;
+}
+.company {
+  padding: 10%;
+  padding-left: 15.8%;
+  color: #fff;
+}
+.company-name {
+  font-size: 33px;
+  font-weight: bold;
+  font-family: "League Spartan", sans-serif;
+}
+.company-btn {
+  background-color: white;
+  width: 11%;
+  font-size: 16px;
+  color: black;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border: none;
+  font-family: "Helvetica", sans-serif;
+}
+.company-btn:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.slider {
+  padding: 2.5%;
+  padding-left: 16%;
+}
+.slider-title {
+  font-size: 13px;
+  padding-bottom: 14px;
+  font-weight: lighter;
+  font-family: "Helvetica", sans-serif;
+}
+.slider-1 {
+  padding-right: 25%;
+}
+
+.slider-img {
+  width: 1130px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  margin: 40px auto;
+  background-image: url("img/slider/becca-tapert-uGak0qtrphM-unsplash.jpg");
+  animation: slide 20s infinite;
+}
+@keyframes slide {
+  25% {
+    background-image: url("img/slider/nastuh-abootalebi-JdcJn85xD2k-unsplash.jpg");
+  }
+  50% {
+    background-image: url("img/slider/nastuh-abootalebi-JdcJn85xD2k-unsplash.jpg");
+  }
+  75% {
+    background-image: url("img/slider/nastuh-abootalebi-JdcJn85xD2k-unsplash.jpg");
+  }
+  100% {
+    background-image: url("img/slider/nastuh-abootalebi-JdcJn85xD2k-unsplash.jpg");
+  }
+}
+.about {
+  display: flex;
+  padding-left: 20%;
+  font-size: 40px;
+  padding-top: 2%;
+  background-color: #f1f1f1;
+  padding-bottom: 2%;
+}
+.about-para {
+  font-family: "League Spartan", sans-serif;
+}
+.about-button {
+  margin-left: 1%;
+}
+.about-btn {
+  padding: 9%;
+  width: 150px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 19px;
+  font-family: "Helvetica", sans-serif;
+}
+.about-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.image {
+  width: 1755px;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+}
+.sub {
+  padding: 2%;
+  padding-left: 37%;
+  background-color: #f1f1f1;
+}
+.subscribe {
+  font-size: 20px;
+  font-family: "League Spartan", sans-serif;
+}
+.sub-para {
+  text-align: center;
+  padding-bottom: 1%;
+  font-size: 16px;
+  color: #525252;
+  font-family: "Helvetica", sans-serif;
+}
+.email {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-bottom: 3em;
+}
+
+.inp {
+  font-size: 5vh;
+}
+
+.email-btn {
+  margin-left: 5px;
+  width: 150px;
+  height: 53px;
+  color: #fff;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+}
+.email-btn:hover {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+.input-btn {
+  padding-left: 34%;
+  display: flex;
+}
+.bottombar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #525252;
+  font-family: "Helvetica", sans-serif;
+}

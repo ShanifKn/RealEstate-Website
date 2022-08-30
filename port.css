@@ -1,0 +1,47 @@
+* {
+  padding-left: 5.9%;
+}
+.rw {
+  margin-left: 27px;
+}
+
+.main {
+  display: flex;
+  margin-right: 45px;
+}
+.title {
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+}
+.para {
+  font-size: 17px;
+  font-family: "Helvetica", sans-serif;
+  color: #525252;
+}
+.btn {
+  margin-left: 35px;
+  width: 150%;
+  height: 20px;
+  padding-bottom: 25px;
+}
+.btn1 {
+  height: 45px;
+  font-size: 15px;
+  padding-right: 50px;
+  font-family: "Helvetica", sans-serif;
+  background-color: black;
+  color: white;
+}
+.btn1:hover {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.past-text {
+  color: black;
+  padding: 2%;
+}
+.past-line {
+  margin-left: 27hpx;
+}

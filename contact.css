@@ -1,0 +1,111 @@
+* {
+  background-color: #f1f1f1;
+}
+.main {
+  margin-top: 200px;
+  padding: 1%;
+  margin-left: 14%;
+  font-size: 25px;
+}
+.details {
+  display: flex;
+  padding-bottom: 250px;
+}
+.leftside {
+  margin-right: 150px;
+  display: block;
+  justify-content: space-between;
+  padding-bottom: 20%;
+}
+.rightside {
+  margin-left: 150px;
+}
+input {
+  width: 120%;
+  height: 40px;
+  font-size: 25px;
+}
+.textarea {
+  text-align: start;
+}
+textarea {
+  padding-left: 14px;
+  padding-top: 14px;
+  font-size: 15px;
+  font-style: bold;
+  background-color: #ffff;
+}
+.btn {
+  background-color: black;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.title {
+  font-size: 20px;
+  font-weight: lighter;
+}
+input[placeholder] {
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 12px;
+  font-family: "Helvetica", sans-serif;
+  background-color: #ffff;
+}
+.para {
+  color: #525252;
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+}
+.send {
+  padding-top: 7%;
+}
+
+.schedule {
+  padding: 1%;
+  margin-left: 14%;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+.box1 {
+  position: absolute;
+  left: 30%;
+  width: 300px;
+  background-color: #ffff;
+  padding: 55px;
+  text-align: center;
+}
+.box2 {
+  position: absolute;
+  right: 25%;
+  width: 300px;
+  background-color: #ffff;
+  padding: 55px;
+  text-align: center;
+}
+.box button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 30%;
+  height: 40px;
+  cursor: pointer;
+}
+.box span {
+  font-size: 20px;
+  background-color: #ffff;
+}
+.box1:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.box2:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
